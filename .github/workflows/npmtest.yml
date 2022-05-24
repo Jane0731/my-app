@@ -1,0 +1,10 @@
+name: NPM
+on: push
+jobs:
+  build:
+    name: Hello world action
+    runs-on: self-hosted
+    steps:
+      # - run: npm --prefix ./frontend/my-app/ test
+      - run: echo `pwd`
+      
