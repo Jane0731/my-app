@@ -6,4 +6,4 @@ jobs:
     runs-on: self-hosted
     steps:
       # - run: npm --prefix ./frontend/my-app/ test
-      - run: npm install && npm test && npm build && npm start
+      - run: sudo npm install && npm test && npm build && npm start
